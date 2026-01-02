@@ -1,0 +1,14 @@
+# Ignore Virtual Environments
+nba-env/     
+env/
+venv/
+.env
+.venv/
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore System Files
+.DS_Store
+.vscode/

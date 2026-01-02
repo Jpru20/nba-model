@@ -1,0 +1,953 @@
+{
+    "Atlanta Hawks": [
+        {
+            "Team": "Atlanta Hawks",
+            "Player": "N'Faly Dante",
+            "Status": "Doubtful",
+            "Reason": "12/18/2025           07:00 (ET)       ATL@CHA     Atlanta Hawks                       Dante, N'Faly                        Doubtful       G League - On Assignment",
+            "PIE": 0.015
+        },
+        {
+            "Team": "Atlanta Hawks",
+            "Player": "Nikola Djurisic",
+            "Status": "Out",
+            "Reason": "Djurisic, Nikola                    Out          G League - On Assignment",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Atlanta Hawks",
+            "Player": "Caleb Houstan",
+            "Status": "Doubtful",
+            "Reason": "Houstan, Caleb                      Doubtful       G League - Two-Way",
+            "PIE": 0.019166666666666665
+        },
+        {
+            "Team": "Atlanta Hawks",
+            "Player": "Eli Ndiaye",
+            "Status": "Out",
+            "Reason": "Ndiaye, Eli John                   Out          G League - Two-Way",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Atlanta Hawks",
+            "Player": "Kristaps Porzingis",
+            "Status": "Out",
+            "Reason": "Porzingis, Kristaps                 Out                 Injury/Illness - N/A; Illness",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Atlanta Hawks",
+            "Player": "Trae Young",
+            "Status": "Questionable",
+            "Reason": "Young, Trae                         Questionable",
+            "PIE": 0.1706666666666667
+        }
+    ],
+    "Charlotte Hornets": [
+        {
+            "Team": "Charlotte Hornets",
+            "Player": "LaMelo Ball",
+            "Status": "Questionable",
+            "Reason": "Charlotte Hornets                         Ball, LaMelo                         Questionable",
+            "PIE": 0.20375
+        },
+        {
+            "Team": "Charlotte Hornets",
+            "Player": "Pat Connaughton",
+            "Status": "Out",
+            "Reason": "Connaughton, Pat                 Out                 Injury/Illness - Right Calf; Strain",
+            "PIE": 0.043333333333333335
+        },
+        {
+            "Team": "Charlotte Hornets",
+            "Player": "Tre Mann",
+            "Status": "Out",
+            "Reason": "Mann, Tre                       Out",
+            "PIE": 0.0848148148148148
+        },
+        {
+            "Team": "Charlotte Hornets",
+            "Player": "Liam McNeeley",
+            "Status": "Out",
+            "Reason": "McNeeley, Liam                   Out          G League - On Assignment",
+            "PIE": 0.05148148148148148
+        },
+        {
+            "Team": "Charlotte Hornets",
+            "Player": "Drew Peterson",
+            "Status": "Out",
+            "Reason": "Peterson, Drew                   Out          G League - Two-Way",
+            "PIE": 0.017777777777777778
+        },
+        {
+            "Team": "Charlotte Hornets",
+            "Player": "Antonio Reeves",
+            "Status": "Out",
+            "Reason": "Reeves, Antonio                   Out          G League - Two-Way",
+            "PIE": 0.031111111111111114
+        },
+        {
+            "Team": "Charlotte Hornets",
+            "Player": "Collin Sexton",
+            "Status": "Out",
+            "Reason": "Sexton, Collin                     Out",
+            "PIE": 0.1301587301587302
+        },
+        {
+            "Team": "Charlotte Hornets",
+            "Player": "Grant Williams",
+            "Status": "Out",
+            "Reason": "Williams, Grant                   Out                 Injury/Illness - Right Knee; Surgery",
+            "PIE": 0.08
+        }
+    ],
+    "New York Knicks": [
+        {
+            "Team": "New York Knicks",
+            "Player": "OG Anunoby",
+            "Status": "Questionable",
+            "Reason": "NYK@IND    New York Knicks                   Anunoby, OG                        Questionable       Injury/Illness - Left Knee; Contusion",
+            "PIE": 0.14416666666666667
+        },
+        {
+            "Team": "New York Knicks",
+            "Player": "Josh Hart",
+            "Status": "Questionable",
+            "Reason": "Hart, Josh                           Questionable",
+            "PIE": 0.15361111111111111
+        },
+        {
+            "Team": "New York Knicks",
+            "Player": "Miles McBride",
+            "Status": "Out",
+            "Reason": "McBride, Miles                    Out                 Injury/Illness - Left Ankle; Sprain",
+            "PIE": 0.10566666666666666
+        },
+        {
+            "Team": "New York Knicks",
+            "Player": "Mitchell Robinson",
+            "Status": "Questionable",
+            "Reason": "Robinson, Mitchell                   Questionable",
+            "PIE": 0.08078431372549018
+        },
+        {
+            "Team": "New York Knicks",
+            "Player": "Landry Shamet",
+            "Status": "Out",
+            "Reason": "Shamet, Landry                   Out                 Injury/Illness - Right Shoulder; Sprain",
+            "PIE": 0.08
+        },
+        {
+            "Team": "New York Knicks",
+            "Player": "Karl-Anthony Towns",
+            "Status": "Questionable",
+            "Reason": "Towns, Karl-Anthony                 Questionable       Injury/Illness - Left Knee; Soreness",
+            "PIE": 0.2336111111111111
+        }
+    ],
+    "Indiana Pacers": [
+        {
+            "Team": "Indiana Pacers",
+            "Player": "Tyrese Haliburton",
+            "Status": "Out",
+            "Reason": "Indiana Pacers                        Haliburton, Tyrese                 Out",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Indiana Pacers",
+            "Player": "Kam Jones",
+            "Status": "Doubtful",
+            "Reason": "Jones, Kam                          Doubtful       G League - On Assignment",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Indiana Pacers",
+            "Player": "Aaron Nesmith",
+            "Status": "Out",
+            "Reason": "Nesmith, Aaron                   Out                 Injury/Illness - Left Knee MCL; Sprain",
+            "PIE": 0.13818181818181818
+        },
+        {
+            "Team": "Indiana Pacers",
+            "Player": "Taelon Peter",
+            "Status": "Doubtful",
+            "Reason": "Peter, Taelon                        Doubtful       G League - Two-Way",
+            "PIE": 0.02
+        },
+        {
+            "Team": "Indiana Pacers",
+            "Player": "Ben Sheppard",
+            "Status": "Out",
+            "Reason": "Sheppard, Ben                    Out                 Injury/Illness - Left Calf; Strain",
+            "PIE": 0.07909090909090909
+        },
+        {
+            "Team": "Indiana Pacers",
+            "Player": "Obi Toppin",
+            "Status": "Out",
+            "Reason": "Toppin, Obi                      Out",
+            "PIE": 0.1355555555555555
+        }
+    ],
+    "Miami Heat": [
+        {
+            "Team": "Miami Heat",
+            "Player": "Tyler Herro",
+            "Status": "Out",
+            "Reason": "07:30 (ET)      MIA@BKN    Miami Heat                          Herro, Tyler                      Out",
+            "PIE": 0.1955555555555555
+        },
+        {
+            "Team": "Miami Heat",
+            "Player": "Kasparas Jakucionis",
+            "Status": "Available",
+            "Reason": "Jakucionis, Kasparas                   Available            Injury/Illness - Left Ankle; Soreness",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Miami Heat",
+            "Player": "Nikola Jovic",
+            "Status": "Out",
+            "Reason": "Jovic, Nikola                      Out",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Miami Heat",
+            "Player": "Pelle Larsson",
+            "Status": "Out",
+            "Reason": "Larsson, Pelle                     Out                 Injury/Illness - Left Ankle; Sprain",
+            "PIE": 0.08888888888888889
+        },
+        {
+            "Team": "Miami Heat",
+            "Player": "Norman Powell",
+            "Status": "Probable",
+            "Reason": "Powell, Norman                     Probable            Injury/Illness - Left Calf; Discomfort",
+            "PIE": 0.19111111111111112
+        },
+        {
+            "Team": "Miami Heat",
+            "Player": "Terry Rozier",
+            "Status": "Out",
+            "Reason": "Rozier, Terry                      Out             Not With Team",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Miami Heat",
+            "Player": "Dru Smith",
+            "Status": "Available",
+            "Reason": "Smith, Dru                             Available            Injury/Illness - Left Hip; Contusion",
+            "PIE": 0.0717948717948718
+        },
+        {
+            "Team": "Miami Heat",
+            "Player": "Jahmir Young",
+            "Status": "Out",
+            "Reason": "Young, Jahmir                    Out          G League - Two-Way",
+            "PIE": 0.018666666666666665
+        }
+    ],
+    "Brooklyn Nets": [
+        {
+            "Team": "Brooklyn Nets",
+            "Player": "Tyson Etienne",
+            "Status": "Out",
+            "Reason": "Brooklyn Nets                         Etienne, Tyson                    Out          G League - Two-Way",
+            "PIE": 0.01
+        },
+        {
+            "Team": "Brooklyn Nets",
+            "Player": "Haywood Highsmith",
+            "Status": "Out",
+            "Reason": "Highsmith, Haywood               Out",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Brooklyn Nets",
+            "Player": "E.J. Liddell",
+            "Status": "Out",
+            "Reason": "Liddell, E.J.                       Out          G League - Two-Way",
+            "PIE": 0.021904761904761903
+        },
+        {
+            "Team": "Brooklyn Nets",
+            "Player": "Ben Saraf",
+            "Status": "Out",
+            "Reason": "Saraf, Ben                        Out          G League - On Assignment",
+            "PIE": 0.05277777777777778
+        },
+        {
+            "Team": "Brooklyn Nets",
+            "Player": "Cam Thomas",
+            "Status": "Out",
+            "Reason": "Thomas, Cam                     Out                 Injury/Illness - Left Hamstring; Strain",
+            "PIE": 0.15583333333333332
+        },
+        {
+            "Team": "Brooklyn Nets",
+            "Player": "Nolan Traore",
+            "Status": "Out",
+            "Reason": "Traore, Nolan                     Out          G League - On Assignment",
+            "PIE": 0.018888888888888886
+        }
+    ],
+    "Houston Rockets": [
+        {
+            "Team": "Houston Rockets",
+            "Player": "Tari Eason",
+            "Status": "Questionable",
+            "Reason": "08:00 (ET)      HOU@NOP    Houston Rockets                     Eason, Tari                          Questionable       Injury/Illness - Right Oblique; Strain",
+            "PIE": 0.1103030303030303
+        },
+        {
+            "Team": "Houston Rockets",
+            "Player": "Dorian Finney-Smith",
+            "Status": "Out",
+            "Reason": "Finney-Smith, Dorian               Out                 Injury/Illness - Left Ankle; Surgery",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Houston Rockets",
+            "Player": "Fred VanVleet",
+            "Status": "Out",
+            "Reason": "VanVleet, Fred                    Out                 Injury/Illness - Right Knee; ACL Repair",
+            "PIE": 0.08
+        }
+    ],
+    "New Orleans Pelicans": [
+        {
+            "Team": "New Orleans Pelicans",
+            "Player": "Trey Alexander",
+            "Status": "Out",
+            "Reason": "New Orleans Pelicans                 Alexander, Trey                   Out          G League - Two-Way",
+            "PIE": 0.04666666666666667
+        },
+        {
+            "Team": "New Orleans Pelicans",
+            "Player": "Hunter Dickinson",
+            "Status": "Out",
+            "Reason": "Dickinson, Hunter                 Out          G League - Two-Way",
+            "PIE": 0.0
+        },
+        {
+            "Team": "New Orleans Pelicans",
+            "Player": "Dejounte Murray",
+            "Status": "Out",
+            "Reason": "Murray, Dejounte                 Out                 Injury/Illness - Right Achilles; Rupture",
+            "PIE": 0.08
+        }
+    ],
+    "LA Clippers": [
+        {
+            "Team": "LA Clippers",
+            "Player": "Bradley Beal",
+            "Status": "Out",
+            "Reason": "LAC@OKC     LA Clippers                             Beal, Bradley                     Out                 Injury/Illness - Left Hip; Fracture",
+            "PIE": 0.06111111111111111
+        },
+        {
+            "Team": "LA Clippers",
+            "Player": "James Harden",
+            "Status": "Out",
+            "Reason": "Harden, James                    Out                 Injury/Illness - Left Calf; Contusion",
+            "PIE": 0.23653333333333332
+        },
+        {
+            "Team": "LA Clippers",
+            "Player": "Derrick Jr.",
+            "Status": "Out",
+            "Reason": "Jones Jr., Derrick                  Out                 Injury/Illness - Right Knee; Sprain",
+            "PIE": 0.08
+        },
+        {
+            "Team": "LA Clippers",
+            "Player": "Yanic Niederhauser",
+            "Status": "Out",
+            "Reason": "Niederhauser, Yanic Konan          Out                 Injury/Illness - Left Knee; Soreness",
+            "PIE": 0.08
+        },
+        {
+            "Team": "LA Clippers",
+            "Player": "Chris Paul",
+            "Status": "Out",
+            "Reason": "Paul, Chris                       Out             Not With Team",
+            "PIE": 0.04666666666666667
+        }
+    ],
+    "Oklahoma City Thunder": [
+        {
+            "Team": "Oklahoma City Thunder",
+            "Player": "Isaiah Hartenstein",
+            "Status": "Out",
+            "Reason": "Oklahoma City Thunder               Hartenstein, Isaiah                 Out",
+            "PIE": 0.159
+        },
+        {
+            "Team": "Oklahoma City Thunder",
+            "Player": "Thomas Sorber",
+            "Status": "Out",
+            "Reason": "Sorber, Thomas                   Out",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Oklahoma City Thunder",
+            "Player": "Nikola Topic",
+            "Status": "Out",
+            "Reason": "Topic, Nikola                     Out                 Injury/Illness - N/a; Surgical Recovery",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Oklahoma City Thunder",
+            "Player": "Jaylin Williams",
+            "Status": "Out",
+            "Reason": "Williams, Jaylin                    Out                 Injury/Illness - Right Heel; Bursitis",
+            "PIE": 0.0776
+        }
+    ],
+    "Toronto Raptors": [
+        {
+            "Team": "Toronto Raptors",
+            "Player": "RJ Barrett",
+            "Status": "Out",
+            "Reason": "TOR@MIL     Toronto Raptors                        Barrett, RJ                       Out                 Injury/Illness - Right Knee; Sprain",
+            "PIE": 0.176078431372549
+        },
+        {
+            "Team": "Toronto Raptors",
+            "Player": "Chucky Hepburn",
+            "Status": "Out",
+            "Reason": "Hepburn, Chucky                  Out          G League - Two-Way",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Toronto Raptors",
+            "Player": "A.J. Lawson",
+            "Status": "Out",
+            "Reason": "Lawson, A.J.                      Out          G League - Two-Way",
+            "PIE": 0.056666666666666664
+        },
+        {
+            "Team": "Toronto Raptors",
+            "Player": "Alijah Martin",
+            "Status": "Out",
+            "Reason": "Martin, Alijah                     Out          G League - Two-Way",
+            "PIE": 0.0
+        },
+        {
+            "Team": "Toronto Raptors",
+            "Player": "Jonathan Mogbo",
+            "Status": "Out",
+            "Reason": "Mogbo, Jonathan                  Out          G League - On Assignment",
+            "PIE": 0.02
+        },
+        {
+            "Team": "Toronto Raptors",
+            "Player": "Jakob Poeltl",
+            "Status": "Probable",
+            "Reason": "Poeltl, Jakob                        Probable",
+            "PIE": 0.125
+        }
+    ],
+    "Milwaukee Bucks": [
+        {
+            "Team": "Milwaukee Bucks",
+            "Player": "Alex Antetokounmpo",
+            "Status": "Out",
+            "Reason": "Milwaukee Bucks                  Antetokounmpo, Alex              Out          G League - Two-Way",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Milwaukee Bucks",
+            "Player": "Giannis Antetokounmpo",
+            "Status": "Out",
+            "Reason": "Antetokounmpo, Giannis            Out                 Injury/Illness - Right Calf; Strain",
+            "PIE": 0.2792156862745098
+        },
+        {
+            "Team": "Milwaukee Bucks",
+            "Player": "Cole Anthony",
+            "Status": "Questionable",
+            "Reason": "Anthony, Cole                       Questionable       Injury/Illness - Neck; Strain",
+            "PIE": 0.07733333333333334
+        },
+        {
+            "Team": "Milwaukee Bucks",
+            "Player": "AJ Green",
+            "Status": "Questionable",
+            "Reason": "Green, AJ                           Questionable       Injury/Illness - Left Ac Joint; Sprain",
+            "PIE": 0.10222222222222223
+        },
+        {
+            "Team": "Milwaukee Bucks",
+            "Player": "Kyle Kuzma",
+            "Status": "Questionable",
+            "Reason": "Kuzma, Kyle                         Questionable       Injury/Illness - N/a; Illness",
+            "PIE": 0.12410256410256411
+        },
+        {
+            "Team": "Milwaukee Bucks",
+            "Player": "Taurean Prince",
+            "Status": "Out",
+            "Reason": "Prince, Taurean                   Out                 Injury/Illness - Neck; Surgery",
+            "PIE": 0.05416666666666667
+        }
+    ],
+    "Washington Wizards": [
+        {
+            "Team": "Washington Wizards",
+            "Player": "Malaki Branham",
+            "Status": "Questionable",
+            "Reason": "WAS@SAS    Washington Wizards                Branham, Malaki                    Questionable       Injury/Illness - Right Thumb; Sprain",
+            "PIE": 0.037575757575757575
+        },
+        {
+            "Team": "Washington Wizards",
+            "Player": "Corey Kispert",
+            "Status": "Out",
+            "Reason": "Kispert, Corey                     Out",
+            "PIE": 0.08313725490196079
+        },
+        {
+            "Team": "Washington Wizards",
+            "Player": "Khris Middleton",
+            "Status": "Out",
+            "Reason": "Middleton, Khris                  Out                 Injury/Illness - Right Knee; Contusion",
+            "PIE": 0.10875
+        }
+    ],
+    "San Antonio Spurs": [
+        {
+            "Team": "San Antonio Spurs",
+            "Player": "Harrison Ingram",
+            "Status": "Out",
+            "Reason": "San Antonio Spurs                   Ingram, Harrison                  Out          G League - Two-Way",
+            "PIE": 0.017777777777777778
+        },
+        {
+            "Team": "San Antonio Spurs",
+            "Player": "David Garcia",
+            "Status": "Out",
+            "Reason": "Jones Garcia, David                Out          G League - Two-Way",
+            "PIE": 0.08
+        },
+        {
+            "Team": "San Antonio Spurs",
+            "Player": "Kyle Mangas",
+            "Status": "Out",
+            "Reason": "Mangas, Kyle                     Out          G League - Two-Way",
+            "PIE": 0.08
+        }
+    ],
+    "Detroit Pistons": [
+        {
+            "Team": "Detroit Pistons",
+            "Player": "Isaac Jones",
+            "Status": "Out",
+            "Reason": "08:30 (ET)       DET@DAL      Detroit Pistons                        Jones, Isaac                      Out          G League - On Assignment",
+            "PIE": 0.013333333333333334
+        },
+        {
+            "Team": "Detroit Pistons",
+            "Player": "Bobi Klintman",
+            "Status": "Out",
+            "Reason": "Klintman, Bobi                    Out          G League - On Assignment",
+            "PIE": 0.035555555555555556
+        },
+        {
+            "Team": "Detroit Pistons",
+            "Player": "Chaz Lanier",
+            "Status": "Out",
+            "Reason": "Lanier, Chaz                      Out          G League - On Assignment",
+            "PIE": 0.033846153846153845
+        },
+        {
+            "Team": "Detroit Pistons",
+            "Player": "Wendell Jr.",
+            "Status": "Out",
+            "Reason": "Moore Jr., Wendell                Out          G League - Two-Way",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Detroit Pistons",
+            "Player": "Tolu Smith",
+            "Status": "Out",
+            "Reason": "Smith, Tolu                       Out          G League - Two-Way",
+            "PIE": 0.09666666666666666
+        }
+    ],
+    "Dallas Mavericks": [
+        {
+            "Team": "Dallas Mavericks",
+            "Player": "Anthony Davis",
+            "Status": "Questionable",
+            "Reason": "Dallas Mavericks                       Davis, Anthony                      Questionable       Injury/Illness - Left Calf; Contusion",
+            "PIE": 0.21272727272727274
+        },
+        {
+            "Team": "Dallas Mavericks",
+            "Player": "Dante Exum",
+            "Status": "Out",
+            "Reason": "Exum, Dante                      Out                 Injury/Illness - Right Knee; Surgery",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Dallas Mavericks",
+            "Player": "Kyrie Irving",
+            "Status": "Out",
+            "Reason": "Irving, Kyrie                      Out                 Injury/Illness - Left Knee; Surgery",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Dallas Mavericks",
+            "Player": "Dereck II",
+            "Status": "Out",
+            "Reason": "Lively II, Dereck                   Out",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Dallas Mavericks",
+            "Player": "D'Angelo Russell",
+            "Status": "Questionable",
+            "Reason": "Russell, D'Angelo                    Questionable       Injury/Illness - Illness; Illness",
+            "PIE": 0.10698412698412699
+        },
+        {
+            "Team": "Dallas Mavericks",
+            "Player": "Brandon Williams",
+            "Status": "Questionable",
+            "Reason": "Williams, Brandon                   Questionable",
+            "PIE": 0.10361111111111111
+        }
+    ],
+    "Golden State Warriors": [
+        {
+            "Team": "Golden State Warriors",
+            "Player": "Al Horford",
+            "Status": "Out",
+            "Reason": "09:00 (ET)      GSW@PHX    Golden State Warriors                Horford, Al                       Out",
+            "PIE": 0.0717948717948718
+        },
+        {
+            "Team": "Golden State Warriors",
+            "Player": "Pat Spencer",
+            "Status": "Out",
+            "Reason": "Spencer, Pat                      Out               Personal Reasons",
+            "PIE": 0.08070175438596491
+        }
+    ],
+    "Phoenix Suns": [
+        {
+            "Team": "Phoenix Suns",
+            "Player": "Grayson Allen",
+            "Status": "Questionable",
+            "Reason": "Phoenix Suns                            Allen, Grayson                       Questionable       Injury/Illness - Right Knee; Soreness",
+            "PIE": 0.14296296296296296
+        },
+        {
+            "Team": "Phoenix Suns",
+            "Player": "Koby Brea",
+            "Status": "Out",
+            "Reason": "Brea, Koby                       Out          G League - Two-Way",
+            "PIE": 0.023333333333333334
+        },
+        {
+            "Team": "Phoenix Suns",
+            "Player": "Jordan Goodwin",
+            "Status": "Available",
+            "Reason": "Goodwin, Jordan                      Available            Injury/Illness - Jaw; Sprain (Mask)",
+            "PIE": 0.09014492753623189
+        },
+        {
+            "Team": "Phoenix Suns",
+            "Player": "Jalen Green",
+            "Status": "Out",
+            "Reason": "Green, Jalen                      Out",
+            "PIE": 0.12333333333333334
+        },
+        {
+            "Team": "Phoenix Suns",
+            "Player": "Isaiah Livers",
+            "Status": "Questionable",
+            "Reason": "Livers, Isaiah                        Questionable       Injury/Illness - Right Hip; Strain",
+            "PIE": 0.030769230769230767
+        }
+    ],
+    "Los Angeles Lakers": [
+        {
+            "Team": "Los Angeles Lakers",
+            "Player": "Deandre Ayton",
+            "Status": "Out",
+            "Reason": "LAL@UTA     Los Angeles Lakers                   Ayton, Deandre                   Out                 Injury/Illness - Left Elbow; Soreness",
+            "PIE": 0.1544927536231884
+        },
+        {
+            "Team": "Los Angeles Lakers",
+            "Player": "Bronny James",
+            "Status": "Out",
+            "Reason": "James, Bronny                    Out          G League - On Assignment",
+            "PIE": 0.02142857142857143
+        },
+        {
+            "Team": "Los Angeles Lakers",
+            "Player": "Maxi Kleber",
+            "Status": "Probable",
+            "Reason": "Kleber, Maxi                        Probable            Injury/Illness - Lumbar Muscle; Strain",
+            "PIE": 0.02666666666666667
+        },
+        {
+            "Team": "Los Angeles Lakers",
+            "Player": "Austin Reaves",
+            "Status": "Out",
+            "Reason": "Reaves, Austin                    Out                 Injury/Illness - Left Calf; Strain",
+            "PIE": 0.24476190476190482
+        },
+        {
+            "Team": "Los Angeles Lakers",
+            "Player": "Gabe Vincent",
+            "Status": "Out",
+            "Reason": "Vincent, Gabe                    Out                 Injury/Illness - Low Back; Tightness",
+            "PIE": 0.043809523809523805
+        }
+    ],
+    "Utah Jazz": [
+        {
+            "Team": "Utah Jazz",
+            "Player": "Elijah Harkless",
+            "Status": "Out",
+            "Reason": "Utah Jazz                              Harkless, Elijah                    Out          G League - Two-Way",
+            "PIE": 0.023809523809523815
+        },
+        {
+            "Team": "Utah Jazz",
+            "Player": "Walker Kessler",
+            "Status": "Out",
+            "Reason": "Kessler, Walker                   Out",
+            "PIE": 0.16666666666666666
+        },
+        {
+            "Team": "Utah Jazz",
+            "Player": "Lauri Markkanen",
+            "Status": "Questionable",
+            "Reason": "Markkanen, Lauri                    Questionable",
+            "PIE": 0.2375
+        },
+        {
+            "Team": "Utah Jazz",
+            "Player": "Georges Niang",
+            "Status": "Out",
+            "Reason": "Niang, Georges                    Out",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Utah Jazz",
+            "Player": "John Tonje",
+            "Status": "Out",
+            "Reason": "Tonje, John                       Out          G League - Two-Way",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Utah Jazz",
+            "Player": "Oscar Tshiebwe",
+            "Status": "Out",
+            "Reason": "Tshiebwe, Oscar                   Out          G League - Two-Way",
+            "PIE": 0.08
+        }
+    ],
+    "Orlando Magic": [
+        {
+            "Team": "Orlando Magic",
+            "Player": "Jamal Cain",
+            "Status": "Out",
+            "Reason": "ORL@DEN     Orlando Magic                         Cain, Jamal                       Out          G League - Two-Way",
+            "PIE": 0.016
+        },
+        {
+            "Team": "Orlando Magic",
+            "Player": "Colin Castleton",
+            "Status": "Out",
+            "Reason": "Castleton, Colin                   Out          G League - Two-Way",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Orlando Magic",
+            "Player": "Tristan Silva",
+            "Status": "Questionable",
+            "Reason": "da Silva, Tristan                     Questionable",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Orlando Magic",
+            "Player": "Orlando Robinson",
+            "Status": "Out",
+            "Reason": "Robinson, Orlando                 Out          G League - Two-Way",
+            "PIE": 0.02666666666666667
+        },
+        {
+            "Team": "Orlando Magic",
+            "Player": "Jalen Suggs",
+            "Status": "Out",
+            "Reason": "Suggs, Jalen                      Out                 Injury/Illness - Left Hip; Contusion",
+            "PIE": 0.14126984126984127
+        },
+        {
+            "Team": "Orlando Magic",
+            "Player": "Franz Wagner",
+            "Status": "Out",
+            "Reason": "Wagner, Franz                    Out                 Injury/Illness - Left High Ankle; Sprain",
+            "PIE": 0.20444444444444446
+        },
+        {
+            "Team": "Orlando Magic",
+            "Player": "Moritz Wagner",
+            "Status": "Out",
+            "Reason": "Wagner, Moritz                   Out",
+            "PIE": 0.08
+        }
+    ],
+    "Denver Nuggets": [
+        {
+            "Team": "Denver Nuggets",
+            "Player": "Tamar Bates",
+            "Status": "Out",
+            "Reason": "Denver Nuggets                       Bates, Tamar                     Out          G League - Two-Way",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Denver Nuggets",
+            "Player": "Christian Braun",
+            "Status": "Out",
+            "Reason": "Braun, Christian                   Out                 Injury/Illness - Left Ankle; Sprain",
+            "PIE": 0.11636363636363635
+        },
+        {
+            "Team": "Denver Nuggets",
+            "Player": "Aaron Gordon",
+            "Status": "Out",
+            "Reason": "Gordon, Aaron                    Out",
+            "PIE": 0.1641025641025641
+        },
+        {
+            "Team": "Denver Nuggets",
+            "Player": "Tim Jr.",
+            "Status": "Questionable",
+            "Reason": "Hardaway Jr., Tim                    Questionable       Injury/Illness - Illness; Illness",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Denver Nuggets",
+            "Player": "DaRon II",
+            "Status": "Out",
+            "Reason": "Holmes II, DaRon                  Out          G League - On Assignment",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Denver Nuggets",
+            "Player": "Curtis Jones",
+            "Status": "Out",
+            "Reason": "Jones, Curtis                      Out          G League - Two-Way",
+            "PIE": 0.013333333333333334
+        },
+        {
+            "Team": "Denver Nuggets",
+            "Player": "Peyton Watson",
+            "Status": "Questionable",
+            "Reason": "Watson, Peyton                     Questionable",
+            "PIE": 0.10453333333333333
+        }
+    ],
+    "Sacramento Kings": [
+        {
+            "Team": "Sacramento Kings",
+            "Player": "Devin Carter",
+            "Status": "Out",
+            "Reason": "10:00 (ET)       SAC@POR     Sacramento Kings                      Carter, Devin                     Out          G League - On Assignment",
+            "PIE": 0.037037037037037035
+        },
+        {
+            "Team": "Sacramento Kings",
+            "Player": "Drew Eubanks",
+            "Status": "Out",
+            "Reason": "Eubanks, Drew                    Out",
+            "PIE": 0.050666666666666665
+        },
+        {
+            "Team": "Sacramento Kings",
+            "Player": "Zach LaVine",
+            "Status": "Out",
+            "Reason": "LaVine, Zach                      Out                 Injury/Illness - Left Ankle; Sprain",
+            "PIE": 0.15478260869565216
+        },
+        {
+            "Team": "Sacramento Kings",
+            "Player": "Daeqwon Plowden",
+            "Status": "Out",
+            "Reason": "Plowden, Daeqwon                Out          G League - Two-Way",
+            "PIE": 0.02666666666666667
+        },
+        {
+            "Team": "Sacramento Kings",
+            "Player": "Domantas Sabonis",
+            "Status": "Out",
+            "Reason": "Sabonis, Domantas                Out",
+            "PIE": 0.20424242424242428
+        },
+        {
+            "Team": "Sacramento Kings",
+            "Player": "Dennis Schroder",
+            "Status": "Questionable",
+            "Reason": "Schroder, Dennis                    Questionable       Injury/Illness - Right Ankle; Sprain",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Sacramento Kings",
+            "Player": "Isaiah Stevens",
+            "Status": "Out",
+            "Reason": "Stevens, Isaiah                    Out          G League - Two-Way",
+            "PIE": 0.08
+        }
+    ],
+    "Portland Trail Blazers": [
+        {
+            "Team": "Portland Trail Blazers",
+            "Player": "Javonte Cooke",
+            "Status": "Out",
+            "Reason": "Portland Trail Blazers                Cooke, Javonte                    Out          G League - Two-Way",
+            "PIE": 0.014666666666666668
+        },
+        {
+            "Team": "Portland Trail Blazers",
+            "Player": "Scoot Henderson",
+            "Status": "Out",
+            "Reason": "Henderson, Scoot                 Out                 Injury/Illness - Left Hamstring; Tear",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Portland Trail Blazers",
+            "Player": "Jrue Holiday",
+            "Status": "Out",
+            "Reason": "Holiday, Jrue                     Out                 Injury/Illness - Right Calf; Strain",
+            "PIE": 0.18166666666666667
+        },
+        {
+            "Team": "Portland Trail Blazers",
+            "Player": "Damian Lillard",
+            "Status": "Out",
+            "Reason": "Lillard, Damian                    Out",
+            "PIE": 0.08
+        },
+        {
+            "Team": "Portland Trail Blazers",
+            "Player": "Matisse Thybulle",
+            "Status": "Out",
+            "Reason": "Thybulle, Matisse                  Out",
+            "PIE": 0.043333333333333335
+        },
+        {
+            "Team": "Portland Trail Blazers",
+            "Player": "Blake Wesley",
+            "Status": "Out",
+            "Reason": "Wesley, Blake                     Out                 Injury/Illness - Right Foot; Fracture",
+            "PIE": 0.06888888888888889
+        }
+    ]
+}
