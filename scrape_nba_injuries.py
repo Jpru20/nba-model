@@ -240,7 +240,16 @@ def fetch_latest_injury_report_team_enriched(include_pie=True):
         r["PIE"] = val_lookup.get(name_key, DEFAULT_PIE_FALLBACK)
         grouped[r["Team"]].append(r)
         
-    return dict(grouped)
+    final_data = dict(grouped)
+    
+    # --- NEW: Save to file every time this is called ---
+    # 1. Make sure the 'data' folder exists so it doesn't crash
+    os.makedirs("data", exist_ok=True)
+    # 2. Save the file silently
+    save_injuries_json(final_data, DEFAULT_OUTPUT_FILE)
+    # ---------------------------------------------------
+    
+    return final_data
 
 def save_injuries_json(data, filename):
     with open(filename, "w", encoding="utf-8") as f:
