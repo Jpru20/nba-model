@@ -171,7 +171,10 @@ def adjust_total_for_modern_era(predicted_total, home, away, mc_stats, vol_3p):
     
     h_pace = mc_stats.loc[home]['avg_pace']
     a_pace = mc_stats.loc[away]['avg_pace']
-    avg_pace = (h_pace + a_pace) / 2
+    
+    # --- PLAYOFF TWEAK: Apply the 0.965 pace reduction to the Total ---
+    avg_pace = ((h_pace + a_pace) / 2) * 0.965
+    # ------------------------------------------------------------------
     
     pace_derived_total = avg_pace * 1.14 * 2
     
@@ -352,7 +355,12 @@ def update_final_scores():
                 if s['name'] == game['home_team']: h_score = int(s['score'])
                 if s['name'] == game['away_team']: a_score = int(s['score'])
 
-            date_str = game['commence_time'][:10]
+            # --- THE FIX: Convert UTC to Eastern to prevent series collisions ---
+            utc_dt = datetime.strptime(game['commence_time'], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc)
+            eastern_dt = utc_dt.astimezone(pytz.timezone('US/Eastern'))
+            date_str = eastern_dt.strftime('%Y-%m-%d')
+            # --------------------------------------------------------------------
+
             away_abbr = TEAM_MAP.get(game['away_team'])
             home_abbr = TEAM_MAP.get(game['home_team'])
             if not away_abbr or not home_abbr:
@@ -367,7 +375,7 @@ def update_final_scores():
                 UPDATE "predictions_2.0"
                 SET home_score = %s, 
                     away_score = %s, 
-                    status = 'FINAL',
+                    status = 'Completed',
                     updated_at = NOW()
                 WHERE game_id = %s;
             """
@@ -457,26 +465,6 @@ def run_consensus():
         a_loss, a_d = get_impact(away)
         net_impact = a_loss - h_loss
 # ---------------------------------------------------------
-        # [NEW] THE TANK TAX: Manual Penalty for Overvalued Teams
-        # ---------------------------------------------------------
-        # This subtracts points from their projected score.
-        # Format: 'TEAM': Points_To_Penalize
-        # IF BKN is constantly favored but losing, give them a -3.0 or -4.0 tax.
-        TANK_TAX = {
-            'BKN': 4.5,  # The model loves them, so we hit them hard
-            'UTA': 3.5,  # Consistent loser penalty
-            'POR': 3.0,  # Tanking team
-        }
-
-        # Apply Penalty to Home Team (Lowers their predicted margin)
-        if home in TANK_TAX:
-            net_impact -= TANK_TAX[home]
-            # Optional: Add to "Analysis" string later so you know why
-            
-        # Apply Penalty to Away Team (Increases Home margin / Lowers Away score)
-        if away in TANK_TAX:
-            net_impact += TANK_TAX[away]
-        # ---------------------------------------------------------
         xgb = model_s.predict(row[feats])[0] + net_impact
         xgb_tot = model_t.predict(row[feats])[0] - ((h_loss+a_loss)*0.65)
 
@@ -484,16 +472,24 @@ def run_consensus():
         # [NEW] PLAYOFF CONTEXT MATRIX
         # ---------------------------------------------------------
         SERIES_STATE = {
-            # Manually tag today's spots here before running the script
-            # Example: 'LAL': 'HOME_DOWN_0_2'
+            'OKC': 'HOME_UP_1_0',
+            'LAL': 'HOME_UP_1_0',
+            'DEN': 'HOME_UP_1_0',
+            'SAS': 'HOME_UP_1_0',
+            'DET': 'HOME_DOWN_0_1',
+            'CLE': 'HOME_UP_1_0',
+            'NYK': 'HOME_UP_1_0',
+            'BOS': 'HOME_UP_1_0'
         }
 
         PLAYOFF_MODIFIERS = {
             'HOME_DOWN_0_2': 3.0,  
             'HOME_DOWN_0_1': 2.9,  
-            'HOME_DOWN_1_2': 2.5,  
+            'HOME_DOWN_1_2': 2.5,
+            'TIED_1_1': -1.5,      # Subtracts 1.5 to fade the inflated home spread
+            # HOME_UP_1_0 intentionally removed to capture Zig-Zag ATS value
         }
-        # ---------------------------------------------------------
+        # ---------------------------------------------------------  
 
         sim_margin = 0
         if home in mc_stats.index and away in mc_stats.index:
